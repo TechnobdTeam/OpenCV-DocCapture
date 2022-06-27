@@ -1,0 +1,1 @@
+/home/fahad/AndroidStudioProjects/OpenCvUsingJava/openCv453/build/intermediates/cxx/Debug/4gh6f3f4/obj/x86_64

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <org.opencv.android.JavaCamera2View
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:camera_id="any"
+        app:show_fps="false" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/flashLight"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:src="@drawable/ic_flash_off"-->
+<!--        />-->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/imgClickBtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/capture_circle_bg"
+            android:src="@drawable/ic_circle"/>
+
+        <ImageView
+            android:id="@+id/selectGalleryImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_gallery"
+            android:layout_toRightOf="@id/imgClickBtn"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="60dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
