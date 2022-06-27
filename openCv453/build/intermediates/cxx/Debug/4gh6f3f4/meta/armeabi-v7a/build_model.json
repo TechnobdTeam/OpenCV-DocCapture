@@ -29,10 +29,7 @@
     "intermediatesFolder": "/home/fahad/AndroidStudioProjects/OpenCvUsingJava/openCv453/build/intermediates/cxx/Debug/4gh6f3f4",
     "isDebuggableEnabled": true,
     "validAbiList": [
-      "ARMEABI_V7A",
-      "ARM64_V8A",
-      "X86",
-      "X86_64"
+      "ARMEABI_V7A"
     ],
     "buildTargetSet": [
       "opencv_jni_shared"
@@ -133,6 +130,7 @@
         "rootBuildGradleFolder": "/home/fahad/AndroidStudioProjects/OpenCvUsingJava",
         "sdkFolder": "/home/fahad/Android/Sdk",
         "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isCmakeBuildCohabitationEnabled": false,
         "isPrefabEnabled": false
       },
